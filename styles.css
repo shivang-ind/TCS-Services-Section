@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #1e2222;
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+/* SERVICES */
+p {
+  color: white;
+  /* font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif; */
+  font-size: 14px;
+  font-weight: 650;
+  margin: 50px;
+  margin-top: 70px;
+  line-height: 24px;
+  letter-spacing: 3px;
+
+  margin-top: 70px;
+  margin-bottom: 30px;
+  margin-right: 50px;
+  /* margin-left: 80px; */
+}
+/*                                            TRANSFORM YOUR BUSINESS */
+h1 {
+  /* font-family: Houschka-medium; */
+  font-family: "Comfortaa", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  /* line-height: 40px; */
+  color: #fff;
+  margin: 50px 70px;
+}
+
+.boxesContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 25px;
+  margin-right: 45px;
+}
+.box {
+  height: 344px;
+  width: 313px;
+  /* background-color: red; */
+  border-radius: 10px;
+  background-color: black;
+}
+
+.one {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/assets/1cq5dam.thumbnail.640.640.png);
+  background-size: cover;
+  transition: 0.6s;
+}
+.one h2 {
+  margin: 24px;
+  color: white;
+  font-weight: 500;
+  /* z-index: 4; */
+  font-family: "Montserrat", sans-serif;
+}
+.one:hover {
+  transform: translateY(-20px);
+}
+span {
+  position: absolute;
+  height: 344px;
+  width: 313px;
+  border-radius: 10px;
+  transition-duration: 3s;
+}
+/* span::before {
+  background: rgba(0, 0, 0, 0.812);
+} */
+span:hover {
+  /* box-shadow: inset 10px 10px 10px #000000; */
+  background: linear-gradient(to top, rgba(255, 0, 0, 0), rgb(0, 0, 0));
+  z-index: -1;
+}
+
+.two {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/assets/2.jpeg);
+  background-size: cover;
+  transition: 0.6s;
+}
+.two h2 {
+  margin: 24px;
+  color: white;
+  font-weight: 500;
+  /* z-index: 4; */
+  font-family: "Montserrat", sans-serif;
+}
+.two:hover {
+  transform: translateY(-20px);
+}
+.three {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/assets/3.png);
+  background-size: cover;
+  transition: 0.6s;
+}
+.three h2 {
+  margin: 24px;
+  color: white;
+  font-weight: 500;
+  /* z-index: 4; */
+  font-family: "Montserrat", sans-serif;
+}
+.three:hover {
+  transform: translateY(-20px);
+}
+.four {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(assets/4.jpeg);
+  background-size: cover;
+  transition: 0.6s;
+}
+.four h2 {
+  margin: 24px;
+  color: white;
+  font-weight: 500;
+  /* z-index: 4; */
+  font-family: "Montserrat", sans-serif;
+}
+.four:hover {
+  transform: translateY(-20px);
+}
+/*                                              button in bottom */
+
+button {
+  /* background: transparent;
+  color: white;
+  border-radius: 75px; */
+  background: transparent;
+  font-size: 1.125rem;
+  line-height: 2rem;
+  letter-spacing: 0.03125rem;
+  color: #fff;
+  max-height: 3.5rem;
+  border: 1.5px solid #b4b4b8;
+
+  box-sizing: border-box;
+  border-radius: 75pt;
+  margin-top: 50px;
+  padding: 9pt 2pc;
+  display: flex;
+  transition: 0.3s;
+  font-weight: 500;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+}
